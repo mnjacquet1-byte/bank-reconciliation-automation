@@ -8,7 +8,7 @@ Automated bank reconciliation template built with **Power Query** in Excel. Past
 - Cleans dirty data automatically (metadata rows, trailing spaces, date formats).
 - Matches transactions by date + amount.
 - Flags unmatched entries from both sides.
-- Refreshes monthly with one click.
+- Refreshes monthly with one click
 
 ![Bank Reconciliation Demo](assets/bank-reconciliation-demo.mp4)
 
