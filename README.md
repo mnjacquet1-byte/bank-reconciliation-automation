@@ -1,14 +1,14 @@
-# Bank Reconciliation Automation
+# Bank reconciliation automation
 
-Automated bank reconciliation template built with **Power Query** in Excel. Paste raw data, hit Refresh, and get matched/unmatched transactions instantly.
+Automated bank reconciliation template built with **Power Query** in Excel. Paste raw data, hit refresh, and get matched/unmatched transactions instantly.
 
 ## What it does
 
-- Loads raw Bank Statement and General Ledger exports
-- Cleans dirty data automatically (metadata rows, trailing spaces, date formats)
-- Matches transactions by Date + Amount
-- Flags unmatched entries from both sides
-- Refreshes monthly with one click
+- Loads raw bank statement and General Ledger exports.
+- Cleans dirty data automatically (metadata rows, trailing spaces, date formats).
+- Matches transactions by date + amount.
+- Flags unmatched entries from both sides.
+- Refreshes monthly with one click.
 
 ## Sheets
 
@@ -22,25 +22,25 @@ Automated bank reconciliation template built with **Power Query** in Excel. Past
 
 ## Power Query transformations applied
 
-- Remove metadata rows
-- Trim and Clean text columns
-- Convert date formats (DD/MM/YYYY vs YYYY-MM-DD)
-- Combine Debit/Credit into signed Amount
-- Filter out summary rows (Closing Balance)
-- Merge queries (Full Outer Join on Date + Amount)
-- Anti-joins for unmatched items
+- Remove metadata rows.
+- Trim and clean text columns.
+- Convert date formats (DD/MM/YYYY vs YYYY-MM-DD).
+- Combine debit/credit into signed amount.
+- Filter out summary rows (closing balance).
+- Merge queries (full outer join on date + amount).
+- Anti-joins for unmatched items.
 
 ## Tools
 
-Excel 365 · Power Query
+Excel 365 · Power Query.
 
 ## How to use monthly
 
-1. Paste new bank statement in the Bank Statement sheet
-2. Paste new GL export in the GL sheet
-3. Data → Refresh All
-4. Review unmatched items
-5. Post adjustments → Refresh again
+1. Paste new bank statement in the bank statement sheet.
+2. Paste new GL export in the GL sheet.
+3. Data → refresh all.
+4. Review unmatched items.
+5. Post adjustments → refresh again.
 
 ## Author
 
